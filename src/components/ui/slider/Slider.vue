@@ -44,7 +44,7 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits);
     <SliderThumb
       v-for="(_, key) in modelValue"
       :key="key"
-      class="block h-5 w-5 rounded-full border-2 border-primary bg-background ring-offset-background transition-colors disabled:pointer-events-none disabled:opacity-50"
+      class="block h-9 w-9 rounded-full border-2 border-primary bg-background disabled:pointer-events-none disabled:opacity-50"
     />
   </SliderRoot>
 </template>
