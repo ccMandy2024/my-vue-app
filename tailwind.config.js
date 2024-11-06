@@ -11,7 +11,7 @@ module.exports = {
     './components/**/*.{ts,tsx,vue}',
     './app/**/*.{ts,tsx,vue}',
     './src/**/*.{ts,tsx,vue}',
-	],
+  ],
   
   theme: {
     container: {
@@ -23,39 +23,38 @@ module.exports = {
     },
     extend: {
       colors: {
-        border: "#e0e0e0",
-        input: "#e6e6e6",
-        ring: "#3d3d3d",
-        background: "#ffffff",
-        foreground: "#1c1c1c",
         primary: {
-          DEFAULT: "#FF7635",
-          foreground: "#ffffff",
+          DEFAULT: "#FF7635",    // 更新主色
         },
         secondary: {
-          DEFAULT: "#f3f4f6",
-          foreground: "#333333",
+          DEFAULT: "#FDAA7D",    // 更新次要色
         },
-        destructive: {
-          DEFAULT: "#e60000",
-          foreground: "#ffffff",
+        danger: {
+          DEFAULT: "#FD4D4F",    // 危險色
         },
-        muted: {
-          DEFAULT: "#f0f0f0",
-          foreground: "#757575",
+        success: {
+          DEFAULT: "#00970F",    // 成功色
         },
-        accent: {
-          DEFAULT: "#f0f0f0",
-          foreground: "#333333",
-        },
-        popover: {
-          DEFAULT: "#ffffff",
-          foreground: "#1c1c1c",
-        },
-        card: {
-          DEFAULT: "#ffffff",
-          foreground: "#1c1c1c",
-        },
+        background: "#f7f7f7",   // 背景色
+        "text-primary": "#4D4D4D", // 主要文字色
+        "text-secondary": "#BFBFBF", // 次要文字色
+        "content-bg": "#FFF8F5", // 內容背景色
+        "bg-primary": "#FFFFFF", // 主要背景色
+        "bg-secondary": "#EEEEEE", // 
+        muted: "#4d4d4d"
+      },
+      spacing: {
+        "1": "10px",
+        "2": "12px",
+        "3": "14px",
+        "4": "15px",
+        "5": "16px",
+        "6": "18px",
+        "7": "20px",
+        "8": "22px",
+        "9": "24px",
+        "10": "26px",
+        "11": "28px",
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",

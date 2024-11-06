@@ -15,9 +15,9 @@
   <div class="m-10">
     <router-link to="/switch">switch</router-link>
   </div>
-  <div class="m-10">
+  <!-- <div class="m-10">
     <router-link to="/Table">Table</router-link>
-  </div>
+  </div> -->
 </template>
 
 <script>

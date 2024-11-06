@@ -7,7 +7,7 @@ import { Switch } from "@/components/ui/switch";
 
   <div class="m-10">
     <div class="flex items-center space-x-2">
-      <Switch id="airplane-mode" />
+      <Switch variant="aaa" status="checked" />
     </div>
   </div>
 </template>
