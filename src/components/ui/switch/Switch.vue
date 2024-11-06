@@ -44,7 +44,9 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits);
       :class="
         cn(
           'pointer-events-none h-7 w-7 rounded-full bg-bg-primary shadow-lg ring-0 transition-transform data-[state=unchecked]:translate-x-[3px]',
-          { 'data-[state=checked]:translate-x-11': props.status === 'checked' },
+          {
+            'data-[state=checked]:translate-x-12': props.status === 'checked',
+          },
           props.class
         )
       "

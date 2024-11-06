@@ -31,6 +31,21 @@
         </SelectContent>
       </Select>
     </div>
+    <div class="flex items-center gap-[10px]">
+      <div>通知分類：</div>
+      <Select>
+        <SelectTrigger class="w-[366px] h-[40px]">
+          <SelectValue placeholder="請選擇分類" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectGroup>
+            <SelectItem v-for="er in ers" :key="er" :value="er">
+              {{ er }}
+            </SelectItem>
+          </SelectGroup>
+        </SelectContent>
+      </Select>
+    </div>
   </div>
 </template>
 
@@ -47,4 +62,5 @@ import {
 
 const fruits = ["免費方案", "基礎方案", "進階方案", "專業方案"];
 const zxs = ["全屋記", "未來裝修圖說"];
+const ers = ["系統通知", "個人通知", "手機通知"];
 </script>

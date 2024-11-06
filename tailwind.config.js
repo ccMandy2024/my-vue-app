@@ -40,7 +40,7 @@ module.exports = {
         "text-secondary": "#BFBFBF", // 次要文字色
         "content-bg": "#FFF8F5", // 內容背景色
         "bg-primary": "#FFFFFF", // 主要背景色
-        "bg-secondary": "#EEEEEE", // 
+        "bg-secondary": "#EEEEEE", 
         muted: "#4d4d4d"
       },
       spacing: {
@@ -55,6 +55,8 @@ module.exports = {
         "9": "24px",
         "10": "26px",
         "11": "28px",
+        "12": "30px",
+        "13": "32px",
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
