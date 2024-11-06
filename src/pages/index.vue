@@ -1,5 +1,5 @@
 <template>
-  <div><router-link to="/">回到首頁</router-link></div>
+  <div class="m-10"><router-link to="/">回到首頁</router-link></div>
   <div class="m-10">
     <router-link to="/RadioGroup">RadioGroup</router-link>
   </div>

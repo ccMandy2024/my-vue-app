@@ -4,7 +4,8 @@ import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 </script>
 
 <template>
-  <router-link to="/">回到首頁</router-link>
+  <div class="m-10"><router-link to="/">回到首頁</router-link></div>
+
   <div class="m-10">
     <!-- 預設樣式的 Radio Group -->
     <RadioGroup default-value="comfortable">

@@ -3,7 +3,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 </script>
 
 <template>
-  <router-link to="/">回到首頁</router-link>
+  <div class="m-10"><router-link to="/">回到首頁</router-link></div>
+
   <div class="m-5">
     <div class="flex items-center space-x-4">
       <Skeleton class="h-12 w-12 rounded-full" />
