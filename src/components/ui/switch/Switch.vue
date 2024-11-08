@@ -34,7 +34,6 @@ const forwarded = useForwardPropsEmits(delegatedProps, emits);
     :class="
       cn(
         'peer inline-flex h-10 w-[53px] shrink-0 cursor-pointer items-center rounded-full border-3 border-transparent transition-colors disabled:cursor-not-allowed disabled:opacity-50 data-[state=unchecked]:bg-text-secondary',
-        { 'mx-10': props.variant === 'aaa' },
         { 'data-[state=checked]:bg-primary': props.status === 'checked' },
         props.class
       )
